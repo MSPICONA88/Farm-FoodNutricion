@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj": {}
+    "C:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj": {}
   },
   "projects": {
-    "c:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj": {
+    "C:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj",
         "projectName": "Frontend",
-        "projectPath": "c:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj",
+        "projectPath": "C:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj",
         "packagesPath": "C:\\Users\\magal\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\obj\\",
+        "outputPath": "C:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\magal\\AppData\\Roaming\\NuGet\\NuGet.Config",
