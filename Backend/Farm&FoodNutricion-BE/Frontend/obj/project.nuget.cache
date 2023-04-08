@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xXEFWN1MfOLTTGfwUVl05kkHgGSu3w0+w6zTaFMmjdp/IMq7bAFa+qQVxzSILdl+nG0Os4w5Q6dRESLZGU8k0Q==",
+  "dgSpecHash": "X4MYRG+LFcAIJXU7xWhYu6fn+THBrZODwEZE7dmKauLkxREAAoXEpJcm/nu52s5dhvwHrqGQJkQLXWg/E4mBqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj",
+  "projectFilePath": "c:\\Users\\magal\\OneDrive\\Documents\\GitHub\\Farm-FoodNutricion\\Backend\\Farm&FoodNutricion-BE\\Frontend\\Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\magal\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\magal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",

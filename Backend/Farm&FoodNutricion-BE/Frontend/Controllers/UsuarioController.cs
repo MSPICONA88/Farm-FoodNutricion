@@ -24,15 +24,15 @@ public class UsuarioController : ControllerBase
     
     public async Task<ActionResult<ResultadoLogin>> Login([FromBody] ComandoLogin comando)
     {
-        //try
+        try
         {
             var result= new ResultadoLogin();
-            var usuario= await _context.Usuarios.Where(
+            var usuario= await _context.Usuarios.Include(u => u.IdRolNavigation).Where(
                 c=>c.Usuario1.Equals(comando.Usuario)&& 
                 c.Password.Equals(comando.Password)).FirstOrDefaultAsync();
             if(usuario!=null){
                 result.NombreUsuario= usuario.Usuario1;
-                //result.Rol= usuario.IdRolNavigation.NombreRol;
+                result.Rol= usuario.IdRolNavigation.NombreRol;
                 result.StatusCode="200";
                 return Ok(result);
             }
@@ -42,11 +42,11 @@ public class UsuarioController : ControllerBase
                 return Ok(result);
             }
         }
-        //catch (Exception e)
-        // {
-        //     return BadRequest("Error al obtener el usuario");
+        catch (Exception e)
+        {
+            return BadRequest("Error al obtener el usuario");
             
-        // }
+        }
     }
 
   
