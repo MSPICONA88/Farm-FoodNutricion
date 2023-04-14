@@ -18,7 +18,9 @@ public class AlimentoController : ControllerBase
 
     [HttpGet]
     [Route("api/alimento/traerTodos")]
+    
     public async Task<ActionResult<ResultadoListAlimentos>> GetAlimentos()
+    
     {
         try
         {
@@ -51,5 +53,6 @@ public class AlimentoController : ControllerBase
         
         
 
+    
     }
 }
